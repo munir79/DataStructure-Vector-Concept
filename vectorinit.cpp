@@ -21,7 +21,14 @@ int main(){
   for(int i=0;i<v4.size();i++){
     cout << v4[i]<< " ";
   }
+cout<< endl;
+// copy element  array to vector
 
+int a[6]={1,5,7,87,4,3};
+vector <int> v5(a,a+6);
+for(int i=0;i<v5.size();i++){
+    cout << v5[i]<<" ";
+}
 
 
 }
