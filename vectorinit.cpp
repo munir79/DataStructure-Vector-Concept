@@ -1,11 +1,13 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    vector <int>v(5,10);
-    for(int i=0;i<v.size();i++){
-        cout<< v[i]<< " ";
-    }
-    cout<< endl;
-    cout << v.size();
-
+  //  vector<int> v; // type 1
+  vector <int>v(5);
+  vector <int> v1(7,10);
+  for(int i=0;i<v1.size();i++){
+    cout<< v1[i]<< " ";
+  }
+  cout<< endl;
+  
+    cout<< v.size();
 }
