@@ -10,4 +10,11 @@ int main(){
     v.push_back(78);
     cout <<v.capacity();
     // remeber capacity increase 2 multiplies
+    for(int i=0;i<v.size();i++){
+        cout<< v[i] <<" "<< endl;
+    }
+    v.clear();
+     for(int i=0;i<v.size();i++){
+        cout<< v[i] <<" "<< endl;
+    }
 }
